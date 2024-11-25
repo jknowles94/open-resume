@@ -47,12 +47,12 @@ function Experiences() {
     <div className="p-8">
       {experiences.map((exp, i) => (
         <div className="mb-8" key={`exp_${i}`}>
-          <h3 className="text-lg">{exp.company}</h3>
+          <h3>{exp.company}</h3>
           <p><strong>{exp.role}</strong></p>
-          <p className="mb-4 text-sm">{exp.time}</p>
-          <p className="text-sm mb-2">{exp.summary}</p>
+          <p className="mb-4 text-xs">{exp.time}</p>
+          <p className="text-xs mb-2">{exp.summary}</p>
           {exp.detailed.length > 0 && (
-            <ul className="text-sm list-disc list-outside ml-4">
+            <ul className="text-xs list-disc list-outside ml-4">
               {exp.detailed.map((det, i) => (
                 <li key={`detail_${i}`} className="mb-2">{det}</li>
               ))}

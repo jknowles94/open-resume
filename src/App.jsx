@@ -8,9 +8,9 @@ import Education from './components/Education';
 function App() {
 
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-4">
-        <div className="bg-neutral-800 col-span-1 p-4 py-8 lg:flex-col flex items-center">
+    <div className="max-w-[795px] mx-auto">
+      <div className="grid grid-cols-3">
+        <div className="bg-neutral-800 col-span-1 p-4 py-8 flex-col items-center justify-center">
           <Profile />
           <div className='py-8 w-full flex flex-col gap-3'>
             <Contact />
@@ -18,7 +18,7 @@ function App() {
             <Education />
           </div>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-2">
           <Intro />
           <Experiences />
         </div>
