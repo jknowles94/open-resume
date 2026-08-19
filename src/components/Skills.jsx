@@ -1,7 +1,7 @@
 
 function Skills() {
 
-  const skills = ['Javascript', 'Typescript', 'React', 'NextJs', 'NodeJs', 'TDD', 'RESTful API', 'GraphQL', 'CSS/SASS', 'CI/CD', 'AWS', 'Vue', 'Stencil'];
+  const skills = ['Javascript', 'Typescript', 'React', 'Vue','NextJs', 'NodeJs', 'TDD', 'REST API', 'GraphQL', 'CSS/SASS', 'CI/CD', 'AWS', 'Stencil'];
 
   return (
     <div className="text-white mb-4">
